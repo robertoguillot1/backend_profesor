@@ -2,15 +2,6 @@
 
 Este es el backend modular del sistema **RIEGO**, diseñado para la gestión y automatización de sistemas de riego hidropónico utilizando Django y Django REST Framework.
 
-## 🚀 ¿Por qué no se sube la carpeta `venv`?
-
-Es una **buena práctica fundamental** en el desarrollo de software no subir la carpeta del entorno virtual (`venv`, `.venv`, etc.) por las siguientes razones:
-
-1.  **Portabilidad**: Los entornos virtuales contienen rutas absolutas y binarios específicos de tu sistema operativo (Windows). Si alguien descarga el código en Linux o Mac, el `venv` de Windows no funcionará.
-2.  **Tamaño**: La carpeta puede pesar cientos de MBs y contiene miles de archivos que ya existen en internet (en los repositorios de PyPI).
-3.  **Mantenibilidad**: Es mucho más limpio y seguro compartir un archivo `requirements.txt` que permita a cualquier desarrollador recrear exactamente el mismo entorno con un solo comando.
-
----
 
 ## 🛠️ Instalación y Configuración
 
